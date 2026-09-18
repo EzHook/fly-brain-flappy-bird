@@ -6,6 +6,8 @@ There's no genetic algorithm here, no population of 50 birds trying at once. It'
 
 The interesting part isn't the game — it's *why* the fly gets better. It's not "trained" in the usual deep-learning sense. It uses a simplified version of how real fruit flies are believed to learn: a brain region called the mushroom body, where a chemical signal called dopamine tells a handful of neurons "that was good, do more of that" or "that was bad, don't do that again." Passing a pipe releases a little jolt of the "good" signal (real flies have a neuron type called PAM for this). Crashing releases the "bad" signal (real flies call this PPL1). Over time, those signals reshape the connections in its brain, and the fly's behavior actually changes.
 
+![Fly-Brain Flappy Bird running: the game on the left, the fly's live brain activity and learning curve on the right](screenshot.png)
+
 ## What you'll see on screen
 
 The window is split in two:
